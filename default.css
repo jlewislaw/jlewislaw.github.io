@@ -218,7 +218,7 @@
 /*********************************************************************************/
 
 	#logo {
-		padding: 4em 0em;
+		padding: 3em 0em;
 		text-transform: uppercase;
 		font-family: 'Noto Serif', serif;
 	}
@@ -228,6 +228,7 @@
 		width: 150px;
 		float: left;
 		margin-left: 200px;
+		margin-top: -15px;
 	}
 
 	#logo h1 {
@@ -293,8 +294,9 @@
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
-	{
+	.page-banner {
+		overflow: hidden;
+		width: 100%;
 	}
 
 /*********************************************************************************/
@@ -304,7 +306,7 @@
 	#page
 	{
 		overflow: hidden;
-		padding: 6em 0em;
+		//padding: 6em 0em;
 		border-top: 1px solid #E5E5E5;
 	}
 
@@ -385,8 +387,8 @@
 	#featured-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em;
-		background: #FFF;
+		//padding: 3em 0em;
+		background: #FAFAFA;
 	}
 
 	#featured h2
@@ -396,13 +398,13 @@
 
 	#featured .icon
 	{
-		position: relative;
-		display: block;
-		margin: 0px auto 20px auto;
-		line-height:  normal;
-		font-size: 6em;
-		text-align: center;
-		color: #3f3f3f;
+		//position: relative;
+		//display: block;
+		//margin: 0px auto 20px auto;
+		//line-height:  normal;
+		//font-size: 6em;
+		//text-align: center;
+		//color: #3f3f3f;
 	}
 
 	.column1,
@@ -428,6 +430,27 @@
 	.column4
 	{
 		float: right;
+	}
+
+/*********************************************************************************/
+/* Hover Images                                                                     */
+/*********************************************************************************/
+
+	.hover_image:hover {
+		text-decoration: none;
+	} /* Optional (avoid undesired underscore if a is used as wrapper) */
+
+	.hide {
+		display: none;
+	}
+	/* Do the shift: */
+
+	.hover_image:hover img:first-child {
+		display: none;
+	}
+
+	.hover_image:hover img:last-child {
+		display: inline-block;
 	}
 
 /*********************************************************************************/
