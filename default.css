@@ -172,12 +172,6 @@
 		color: #3f3f3f;
 	}
 
-	.title-img {
-		width: 126px;
-		float: left;
-		margin-left: 200px;
-	}
-
 	.title .byline {
 		display: block;
 		padding-top: 1em;
@@ -214,9 +208,9 @@
 
 	#header {
 		background: #383838;
-		color: #FAFAFA bold;
+		color: #FAFAFA;
 		font-family: 'Libre Baskerville', serif;
-		font-size: 16px;
+		font-size: 17px;
 	}
 
 /*********************************************************************************/
@@ -229,11 +223,19 @@
 		font-family: 'Noto Serif', serif;
 	}
 
+
+	.logo-img {
+		width: 126px;
+		float: left;
+		margin-left: 200px;
+	}
+
 	#logo h1 {
 		text-align: center;
 		font-weight: 900;
 		//font-size: 2.5em;
 		font-size: 55px;
+		margin-right: 150px;
 	}
 
 	#logo h1 a {
@@ -256,38 +258,35 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
-	#menu ul
-	{
+	#menu ul {
 		margin: 0;
-		padding: 20px 0px 20px 0px;
+		padding: 0px 0px 0px 0px;
 		list-style: none;
 		line-height: normal;
 		text-align: center;
 	}
 
-	#menu li
-	{
+	#menu li {
 		display: inline-block;
 	}
 
-	#menu a
-	{
+	#menu a {
 		display: block;
 		padding: 1em 2em;
 		letter-spacing: 1px;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 1em;
-		font-weight: 700;
-		color: #FFF;
+		//font-size: 1em;
+		font-weight: bold;
+		color: #FAFAFA;
 	}
 
-	#menu .current_page_item a
-	{
+	#menu .current_page_item a {
+		background-color:  #535353;
 	}
 
-	#menu a:hover
-	{
+	#menu a:hover {
+		background-color:  #535353;
 	}
 
 /*********************************************************************************/
