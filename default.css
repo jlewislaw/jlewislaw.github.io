@@ -209,7 +209,7 @@
 		background-color: #383838;
 		color: #FAFAFA;
 		font-family: 'Libre Baskerville', serif;
-		font-size: 17px;
+		font-size: 18px;
 	}
 
 /*********************************************************************************/
@@ -272,7 +272,7 @@
 
 	#menu a {
 		display: block;
-		padding: 1em 2em;
+		padding: 1em 1em;
 		letter-spacing: 1px;
 		text-decoration: none;
 		text-transform: uppercase;
