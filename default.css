@@ -90,7 +90,7 @@
 	}
 
 /*********************************************************************************/
-/* Social Icon Styles                                                            */
+/* Social background Styles                                                            */
 /*********************************************************************************/
 
 	ul.contact {
@@ -434,7 +434,7 @@
 
 	#portfolio-wrapper {
 		padding: 3em 0em;
-		background-color: #29528F;
+		background-color: #1B375F;
 	}
 
 	#portfolio {
@@ -474,11 +474,20 @@
 /* Parallax                                                                    */
 /*********************************************************************************/
 
-	.parallax {
+	.parallax-1 {
 		background-image: url("images/train.jpg");
-		min-height: 750px;
+		min-height: 500px;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+}
+
+.parallax-2 {
+	background-image: url("images/traffic.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
