@@ -1,3 +1,5 @@
+<?php include "
+
 <!DOCTYPE html>
 
 <html>
@@ -49,155 +51,24 @@
 ------------------------------------------------------------------------------------>
 
 		<div id="logo" class="container">
-			<h1><a href="current_page_item" class="icon"><span><img src="images/logo.png" class="logo-img"/>J. LEWIS &amp; ASSOCIATES</span></a></h1>
+			<h1><a href="index.html"><span><img src="images/logo.png" class="logo-img"/>J. LEWIS &amp; ASSOCIATES</span></a></h1>
 			<h1 style="font-size: 28px;" style="margin-top: -10px"><a href="#" class="icon"><span>A PROFESSIONAL LAW CORPORATION</span></a></h1>
 		</div>
 
 <!----------------------------------------------------------------------------------
------ TITLE PHOTO - Freeway
+----- CONTENT
 ------------------------------------------------------------------------------------>
 
 		<div id="page">
-			<center><spread><img src="images/banner.jpg" class="page-banner"></spread></center>
+			<article>
+			<h1>TITLE Q<h1>
+			<h2>Subtitle<h2>
+			<p>Content</p>
+		</article>
 		</div>
 
-<!----------------------------------------------------------------------------------
------ ABOUT ICONS - Row One
------------------------------------------------------------------------------------->
+		<?php include 'header.php'; ?>
 
-		<div id="featured-wrapper">
-			<div id="featured" class="container" style="padding-top:5em;">
-
-				<div class="column1">
-					<a class="hover_image" href="about-automobile-accidents">
-    					<img src="images/about-auto-front.png" />
-    					<img src="images/about-auto-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column2">
-					<a class="hover_image" href="about-public-transportation">
-    					<img src="images/about-public-front.png" />
-    					<img src="images/about-public-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column3">
-					<a class="hover_image" href="about-pedestrian-injuries">
-    					<img src="images/about-pedestrian-front.png" />
-    					<img src="images/about-pedestrian-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column4">
-						<a class="hover_image" href="about-premises-liability.html">
-	    					<img src="images/about-premises-front.png" />
-	    					<img src="images/about-premises-back.png" class="hide" />
-						</a>
-					</div>
-
-			</div>
-		</div>
-
-<!----------------------------------------------------------------------------------
------ ABOUT ICONS - Row Two
------------------------------------------------------------------------------------->
-
-		<div id="featured-wrapper">
-			<div id="featured" class="container" style="margin-top: 20px;">
-
-				<div class="column1"style="margin-bottom: 50px;">
-					<a class="hover_image" href="about-construction-accidents">
-    					<img src="images/about-construction-front.png" />
-    					<img src="images/about-construction-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column2">
-					<a class="hover_image" href="about-dog-bites">
-    					<img src="images/about-dog-front.png" />
-    					<img src="images/about-dog-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column3">
-					<a class="hover_image" href="about-wrongful-death">
-    					<img src="images/about-wrongful-front.png" />
-    					<img src="images/about-wrongful-back.png" class="hide" />
-					</a>
-				</div>
-
-				<div class="column4">
-						<a class="hover_image" href="about">
-	    					<img src="images/about-more-front.png" />
-	    					<img src="images/about-more-back.png" class="hide" />
-						</a>
-					</div>
-
-			</div>
-		</div>
-
-<!----------------------------------------------------------------------------------
------ PARALLAX - One - Train
------------------------------------------------------------------------------------->
-
-		<div class="parallax-1" class="container"></div>
-
-<!----------------------------------------------------------------------------------
------ ATTORNEYS
------------------------------------------------------------------------------------->
-
-		<div id="portfolio-wrapper">
-			<div id="portfolio" class="container">
-
-				<div class="major" style="margin-top: 50px;">
-					<h2>OUR ATTORNEYS</h2>
-					<!-- <span class="byline">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span> -->
-				</div>
-
-				<div class="column1-port" style="margin-bottom: 50px;">
-					<a class="hover_image" href="attorneys-jonathan-lewis">
-    					<img src="images/jonathan-lewis-front.png" class="border" />
-    					<img src="images/jonathan-lewis-back.png" class="hide border" />
-					</a>
-				</div>
-
-				<div class="column2-port">
-					<a class="hover_image" href="attorneys-robyn-lewis">
-    					<img src="images/robyn-lewis-front.png" class="border" />
-    					<img src="images/robyn-lewis-back.png" class="hide border" />
-					</a>
-				</div>
-
-			</div>
-		</div>
-
-<!----------------------------------------------------------------------------------
------ PARALLAX - Two - Traffic
------------------------------------------------------------------------------------->
-
-		<div class="parallax-2" class="container"></div>
-
-<!----------------------------------------------------------------------------------
------ CONTACT
------------------------------------------------------------------------------------->
-
-		<div id="contact" class="container">
-			<div class="major">
-				<h2 style="color: #383838; bottom-margin: 20px;">CONTACT US</h2><br />
-				<span class="byline"><strong>J. LEWIS &amp; ASSOCIATES, APLC</strong><br />3985 University Avenue, 2nd Floor<br />Riverside, CA 92501<br />951.682.0488</span>
-			</div>
-			<ul class="contact">
-				<li><a href="tel:951-682-0488" class="icon icon-phone"><span>Telephone</span></a></li>
-				<li><a href="mailto: jlewislaw@jlewislaw.com" class="icon icon-envelope-alt"><span>Email</span></a></li>
-				<li><a href="https://www.facebook.com/jlewislawpi" target= "_blank" class="icon icon-facebook"><span>Facebook</span></a></li>
-				<li><a href="https://www.twitter.com/jlewislawpi" target="_blank" class="icon icon-twitter"><span>Twitter</span></a></li>
-			</ul>
-		</div>
-
-		<div id="page">
-			<center><img src="images/map.jpg" class="page-banner" style="margin-bottom:-10px;"></center>
-		</div>
 
 <!----------------------------------------------------------------------------------
 ----- FOOTER
@@ -208,9 +79,12 @@
 
 				<p><strong>J. LEWIS &amp; ASSOCIATES, APLC</strong><br />3985 University Avenue, 2nd Floor<br />Riverside, CA 92501<br />951.682.0488</p>
 				<p>&copy; 2002-2018 | J. LEWIS &amp ASSOCIATES, APLC</p>
+
 			</div>
 		</footer>
 
 	</body>
 
 </html>
+
+" ?>

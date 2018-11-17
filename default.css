@@ -10,7 +10,7 @@
 		margin: 0px;
 		padding: 0px;
 		background-color: #FFFFFF;
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', serif;
 		font-size: 12pt;
 		font-weight: 400;
 		color: #383838;
@@ -355,7 +355,7 @@
 
 		article {
 			text-align: justify;
-			font-family: serif;
+			font-family: 'Roboto', sans-serif;
 			background-color: #FFFFFF;
 			width: 1000px;
 			margin: 0px auto;
@@ -363,7 +363,7 @@
 
 		article h1 {
 			padding-top: 1em;
-			font-family: serif;
+			font-family: 'Libre Baskerville', serif;
 			text-align: center;
 			font-family: serif;
 			font-size: 2em;
@@ -372,7 +372,7 @@
 		article h2 {
 			font-size: 1.5em;
 			padding-bottom: 0.5em;
-			font-family: 'Merriweather', serif;
+			font-family: 'Roboto', sans-serif;
 		}
 
 /*********************************************************************************/
@@ -390,6 +390,7 @@
 
 	footer {
 		background-color: #383838;
+		font-family: 'Libre Baskerville', serif;
 	}
 
 	#copyright {
