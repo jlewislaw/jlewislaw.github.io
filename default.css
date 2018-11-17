@@ -9,8 +9,8 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #FAFAFA;
-		font-family: 'Noto Serif', serif;
+		background-color: #FFFFFF;
+		font-family: 'Merriweather', serif;
 		font-size: 12pt;
 		font-weight: 400;
 		color: #383838;
@@ -32,10 +32,6 @@
 
 	p {
 		line-height: 180%;
-	}
-
-	strong {
-
 	}
 
 	a {
@@ -230,6 +226,7 @@
 		padding: 3em 0em;
 		text-transform: uppercase;
 		font-family: 'Noto Serif', serif;
+		//border-bottom: 1px solid #383838;
 	}
 
 	.logo-img {
@@ -247,8 +244,19 @@
 		margin-right: 150px;
 	}
 
-	#logo h1 a {
+	#logo h2 {
+		text-align: center;
+		font-weight: 900;
+		//font-size: 2.5em;
+		font-size: 28px;
+		margin-right: 150px;
+		margin-top: 5px;
+		margin-left: 50px;
+		text-align: center;
+	}
 
+	#logo a {
+		text-decoration: none
 	}
 
 	#logo span {
@@ -315,7 +323,7 @@
 	#page {
 		overflow: hidden;
 		//padding: 6em 0em;
-		border-top: 1px solid #E5E5E5;
+		border-top: 2px solid #383838;
 	}
 
 /*********************************************************************************/
@@ -340,6 +348,32 @@
 		padding-top: 0;
 		font-size: 1.5em;
 	}
+
+/*********************************************************************************/
+/***** ARTICLE                                                                      */
+/*********************************************************************************/
+
+		article {
+			text-align: justify;
+			font-family: serif;
+			background-color: #FFFFFF;
+			width: 1000px;
+			margin: 0px auto;
+		}
+
+		article h1 {
+			padding-top: 1em;
+			font-family: serif;
+			text-align: center;
+			font-family: serif;
+			font-size: 2em;
+		}
+
+		article h2 {
+			font-size: 1.5em;
+			padding-bottom: 0.5em;
+			font-family: 'Merriweather', serif;
+		}
 
 /*********************************************************************************/
 /* Sidebar                                                                       */
@@ -450,7 +484,7 @@
 	#portfolio {
 		overflow: hidden;
 		text-align: center;
-		font-famil: 'Noto Serif', serif;
+		font-family: 'Noto Serif', serif;
 	}
 
 	#portfolio img {
