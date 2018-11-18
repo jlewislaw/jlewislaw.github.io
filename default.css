@@ -20,13 +20,13 @@
 			padding: 0;
 		}
 
-		p, ol, ul {
+		p, ol {
 			margin-top: 0;
 		}
 
 		ol, ul {
-			padding: 0;
-			list-style: none;
+			//padding: 0;
+			//list-style: none;
 		}
 
 		p {
@@ -275,6 +275,7 @@
 				padding-bottom: 0.5em;
 				font-family: 'Roboto', sans-serif;
 			}
+
 /* ____________________ SECTIONS - FRONT PAGE  ____________________ */
 
 	/* ---------- SECTION-FRONT: BANNER - Freeway ---------- */
