@@ -250,6 +250,31 @@
 				color: #FAFAFA;
 			}
 
+/* ____________________ SECTIONS - CONTENT  ____________________ */
+
+	/* ----------SECTION-CONTENT: ARTICLE ---------- */
+
+		article {
+			text-align: justify;
+			font-family: 'Roboto', sans-serif;
+			background-color: #FFFFFF;
+			width: 1000px;
+			margin: 0px auto;
+		}
+
+			article h1 {
+				padding-top: 1em;
+				padding-bottom: 1.25em;
+				font-family: 'Libre Baskerville', serif;
+				text-align: center;
+				font-size: 2.25em;
+			}
+
+			article h2 {
+				font-size: 1.5em;
+				padding-bottom: 0.5em;
+				font-family: 'Roboto', sans-serif;
+			}
 /* ____________________ SECTIONS - FRONT PAGE  ____________________ */
 
 	/* ---------- SECTION-FRONT: BANNER - Freeway ---------- */
@@ -404,47 +429,20 @@
 				color: #FFFFFF;
 			}
 
-
-/* ---------- ARTICLE ---------- */
-
-	article {
-		text-align: justify;
-		font-family: 'Roboto', sans-serif;
-		background-color: #FFFFFF;
-		width: 1000px;
-		margin: 0px auto;
-	}
-
-		article h1 {
-			padding-top: 1em;
-			font-family: 'Libre Baskerville', serif;
-			text-align: center;
-			font-family: serif;
-			font-size: 2em;
-		}
-
-		.libre {
-			font-family: 'Libre Baskerville', serif;
-		}
-
-		article h2 {
-			font-size: 1.5em;
-			padding-bottom: 0.5em;
-			font-family: 'Roboto', sans-serif;
-		}
-
-
 /*  ____________________ NOT USED  ____________________ */
 
 	/* ---------- NOT USED - SIDEBAR ---------- */
 
+		/*
 		#sidebar {
 			float: right;
 			width: 588px;
 		}
+		*/
 
 	/* ---------- NOT USED - IMAGE STYLES ---------- */
 
+		/*
 		.image {
 			display: inline-block;
 		}
@@ -474,15 +472,18 @@
 				margin: 0 auto;
 				width: auto;
 			}
-
+			*/
 	/* ---------- NOT USED - LISTS ---------- */
 
+		/*
 		ul.style1 {
 
 		}
+		*/
 
 	/* ---------- NOT USED - BUTTON ---------- */
 
+		/*
 		.button {
 			display: inline-block;
 			margin: 1em 0em;
@@ -500,9 +501,11 @@
 			.button:before {
 
 			}
+			*/
 
 	/* ---------- NOT USED - TITLE ---------- */
 
+		/*
 		.title {
 			text-align: center;
 		}
@@ -524,3 +527,4 @@
 				font-weight: 300;
 				font-size: 1.1em;
 			}
+			*/
