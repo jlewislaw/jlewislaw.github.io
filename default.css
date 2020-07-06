@@ -50,6 +50,13 @@
 			border-width: 10px;
 			border-color: #FAFAFA;
 			border-style: solid;
+
+		}
+
+		.border-g {
+			border-width: 10px;
+			border-color: #383838;
+			border-style: solid;
 		}
 
 /* ____________________ STYLES  ____________________ */
